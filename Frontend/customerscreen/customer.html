@@ -21,10 +21,11 @@
             </div>
             <form>
               <div class="form-group">
-                  <label for="">Search stock</label>
+                  <label for="" class="h4">Search stock</label>
                   <input type="text" class="form-control" name="" id="" placeholder="DBS">
                 </div>
                 <br>
+                <label for="" class="h4">Choose  a stock </label>
                 <select class="form-control" aria-label="Default select example">
                   <option selected>Choose a stock</option>
                   <option value="1">DBS</option>
@@ -32,21 +33,26 @@
                   <option value="3">Bank of Baroda</option>
                 </select>
                 <br>
-                <label for="">Order Type</label>
-                <select class="form-control" aria-label="Default select example">
+                <label for="" class="h4">Order Type</label>
+                <select class="form-control form-select" aria-label="Default select example">
                   <option selected>Order Type</option>
                   <option value="1">Limit</option>
                   <option value="2">Market</option>
                 </select>
 
                 <br>
-                <label for=""><b>Price:</b></label>
 
-                <input type="number" placeholder="enter price">
-                
-                <label for=""><b>Quantity:</b></label>
+                <center>
+                  <label for="" class="h4"><b>Price:</b></label>
+                  <input type="number" class = "input" placeholder="enter price">
+                </center>
+                <br>
+                <br>
+                <center>
+                <label for="" class="h4"><b>Quantity:</b></label>
                 <input type="number" placeholder="Quantity">
-                
+              </center>
+              <br>
                 <center><button type="submit" class="btn btn-primary">Place Order</button></center>
             </form>
         </div>
