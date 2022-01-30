@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: monospace;
+   background:linear-gradient(120deg,#2980b9,#8e44ad);
+   overflow:hidden;
+   height: 100vh;
+   }
+   .center{
+    position:absolute;
+    top:25%;
+    left:40%;
+    width:300px;
+    height: 300px;
+    background:rgb(224, 238, 238);
+    border-radius: 10px;
+   }
+   .center h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid rgb(51, 88, 64);
+   }
+   .center form{
+    padding:0 40px;
+    
+    box-sizing: border-box;
+   }
+   form .textfield{
+    position:relative;
+    border-bottom:2px solid #5d17cf;
+   }
+   .textfield input{
+    width:100%;
+    padding:0 5px;
+    height:20px;
+    border:none;
+    background:none;
+    outline:none;
+    padding: 10px 10px 10px 10px;
+   }
+   .pass{
+    padding-top: 15px;
+   }
+   .but{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+   }
