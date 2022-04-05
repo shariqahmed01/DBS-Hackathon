@@ -10,4 +10,4 @@ Customers can place new order for stocks purchasing  when market is open and Adm
 The market open/close action will be handled by Admin. Once market is closed, no new orders can be placed by Customers
 When the market is closed , Admin has to ‘execute’ the orders . Detailed logic is provided in next slides.
 The system focus on only Buying the financial instrument .
-![image](https://user-images.githubusercontent.com/67710319/161688304-f981bc32-bba8-47cc-a782-83e305eb3aaa.png)
+
